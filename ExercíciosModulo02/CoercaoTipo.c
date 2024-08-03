@@ -6,6 +6,6 @@ void main(){
     float dr = (float)n1 / (float)n2;
     setlocale(LC_ALL, "Portuguese");
     printf("Divisão inteira entre %hu e %hu é %hu;\n", n1, n2, di);
-    printf("Divisão real entre %hu e %hu é %hu;\n", n1, n2, dr);
+    printf("Divisão real entre %hu e %hu é %.1f;\n", n1, n2, dr);
     system("pause");
 }
